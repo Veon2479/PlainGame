@@ -2,19 +2,36 @@ namespace PlainGame.Models.Entities;
 
 public class Player : Entity
 {
-    public Direction ViewDirection;
-    public Player(Direction dir, int x, int y) : base(dir, x, y)
+    public AbsDirection MoveDirection;
+    public AbsDirection ViewDirection;
+    public Player(AbsDirection dir, int x, int y) : base(dir, x, y)
     {
-        ViewDirection = dir;
+        AbsDirection = dir;
     }
 
     public void RotateViewLeft()
     {
-        ViewDirection = (Direction) (((int) ViewDirection + 4 - 1) % 4);
+        ViewDirection = (AbsDirection) (((int) ViewDirection + 4 - 1) % 4);
     }
     
     public void RotateViewRight()
     {
-        ViewDirection = (Direction) (((int) ViewDirection + 1) % 4);
+        ViewDirection = (AbsDirection) (((int) ViewDirection + 1) % 4);
+    }
+    
+    public void RotateMoveLeft()
+    {
+        MoveDirection = (AbsDirection) (((int) MoveDirection + 4 - 1) % 4);
+    }
+    
+    public void RotateMoveRight()
+    {
+        MoveDirection = (AbsDirection) (((int) MoveDirection + 1) % 4);
+    }
+
+    public void ReflectMove()
+    {
+        MoveDirection = (AbsDirection) (((int) MoveDirection + 2) % 4);
+
     }
 }

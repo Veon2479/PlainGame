@@ -6,8 +6,7 @@ namespace PlainGame.ViewModels
     {
         public ViewModelBase()
         {
-            var game = new Game();
-            game.Run();
+            
         }
     }
 }

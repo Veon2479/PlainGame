@@ -1,6 +1,6 @@
 namespace PlainGame.Models.Entities;
 
-public enum Direction
+public enum AbsDirection
 {
     North = 0, East = 1, South = 2, West = 3
 }

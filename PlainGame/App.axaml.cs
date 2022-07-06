@@ -22,7 +22,7 @@ namespace PlainGame
                     DataContext = new MainWindowViewModel(),
                 };
             }
-
+            
             base.OnFrameworkInitializationCompleted();
         }
     }

@@ -22,18 +22,18 @@ public class EntityMover
             int oldX = _list[i].X;
             int oldY = _list[i].Y;
 
-            switch (_list[i].Direction)
+            switch (_list[i].AbsDirection)
             {
-                case Direction.North:
+                case AbsDirection.North:
                     oldX++;
                     break;
-                case Direction.East:
+                case AbsDirection.East:
                     oldY++;
                     break;
-                case Direction.South:
+                case AbsDirection.South:
                     oldX--;
                     break;
-                case Direction.West:
+                case AbsDirection.West:
                     oldY--;
                     break;
             }
