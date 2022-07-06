@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainGame", "PlainGame.csproj", "{DAB71193-EA0F-459F-B426-E020F7BA62EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB71193-EA0F-459F-B426-E020F7BA62EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB71193-EA0F-459F-B426-E020F7BA62EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB71193-EA0F-459F-B426-E020F7BA62EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB71193-EA0F-459F-B426-E020F7BA62EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
