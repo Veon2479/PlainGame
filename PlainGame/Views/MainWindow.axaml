@@ -13,7 +13,7 @@
     </Design.DataContext>
 
 	<Canvas Name="MainMenu">
-		<Canvas Name="MainScene" Canvas.Left="40" Canvas.Top="40" Height="300" Width="400" >
+		<Canvas Name="MainScene" Canvas.Left="40" Canvas.Top="40" Height="700" Width="800" >
 			
 			
 			

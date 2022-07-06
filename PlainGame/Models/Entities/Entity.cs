@@ -2,12 +2,12 @@ namespace PlainGame.Models.Entities;
 
 public abstract class Entity
 {
-    public Direction Direction;
+    public AbsDirection AbsDirection;
     public int X, Y;
 
-    public Entity(Direction dir, int x, int y)
+    public Entity(AbsDirection dir, int x, int y)
     {
-        Direction = dir;
+        AbsDirection = dir;
         X = x;
         Y = y;
     }
