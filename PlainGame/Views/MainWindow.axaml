@@ -12,6 +12,11 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+	<Canvas Name="MainMenu">
+		<Canvas Name="MainScene" Canvas.Left="40" Canvas.Top="40" Height="300" Width="400" >
+			
+			
+			
+		</Canvas>
+	</Canvas>
 </Window>
