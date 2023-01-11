@@ -3,7 +3,6 @@ using OpenTK.Graphics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using PlainGame;
-using Monitor = OpenTK.Windowing.GraphicsLibraryFramework.Monitor;
 
 internal class Program
 {
